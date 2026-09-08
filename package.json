@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc -b && vite build",
-    "deploy": "npm run build && gh-pages -d dist",
+    "build": "vue-tsc -b && vite build && node scripts/prepare-github-pages.mjs",
+    "deploy": "npm run build && gh-pages -d dist --dotfiles",
     "import:errata": "node scripts/import-errata.mjs",
     "preview": "vite preview"
   },
