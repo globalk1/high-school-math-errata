@@ -415,7 +415,7 @@ h1 {
   min-width: 0;
 }
 
-.compare-grid span,
+.field-label,
 .category {
   display: block;
   margin-bottom: 6px;
@@ -436,7 +436,13 @@ h1 {
 }
 
 .math-fragment {
+  display: inline-block;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
   overflow-wrap: normal;
+  vertical-align: -0.12em;
+  white-space: nowrap;
 }
 
 .math-display {
@@ -448,6 +454,9 @@ h1 {
 
 .katex {
   font-size: 1.02em;
+  overflow-wrap: normal;
+  white-space: nowrap;
+  word-break: normal;
 }
 
 .compare-grid section:last-child {

@@ -221,11 +221,11 @@ function sourceNameFor(item: ErrataItem) {
 
             <div class="compare-grid">
               <section>
-                <span>原印內容</span>
+                <span class="field-label">原印內容</span>
                 <p><MathText :text="item.original" /></p>
               </section>
               <section>
-                <span>修訂內容</span>
+                <span class="field-label">修訂內容</span>
                 <p><MathText :text="item.correction" /></p>
               </section>
             </div>
