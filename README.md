@@ -23,5 +23,7 @@ npm run import:errata
 ```
 
 新增單元時，先在 `scripts/errata-sources.json` 追加一筆來源設定，再重新匯入。
-"# high-school-math-errata" 
-"# high-school-math-errata" 
+
+## Codex release skill
+
+使用 `$high-school-math-prepare-release` 準備本地發佈流程：檢查修改、執行建置、用 Conventional Commit 自動命名並提交，但不 push 或 deploy。
