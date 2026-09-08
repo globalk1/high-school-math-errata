@@ -27,3 +27,7 @@ npm run import:errata
 ## Codex release skill
 
 使用 `$high-school-math-prepare-release` 準備本地發佈流程：檢查修改、執行建置、用 Conventional Commit 自動命名並提交，但不 push 或 deploy。
+
+## GitHub Pages
+
+Repository Settings 的 Pages source 請選 `GitHub Actions`。不要選 `main / root`，否則 GitHub Pages 會直接發布 Vite 的開發入口 `index.html`，導致線上讀取 `/src/main.ts` 或靜態資源時出現 404。
