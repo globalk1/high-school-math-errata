@@ -491,10 +491,10 @@ export const errataUnits: ErrataUnit[] = [
         "page": 91,
         "pdfPage": 93,
         "locator": "範例 2 (2) 簡答",
-        "original": "$A^{100}$ 為 168 位數，求 $A^{-17}$ 首位非 0 數字\nAns : (2) 4",
-        "correction": "Ans : (2)  2 或 3（條件不足以定單一值）",
-        "category": "簡答數值錯誤\n& 題目條件不足",
-        "detail": "首位數字範圍為 $2.77 \\sim 3.82$，首位非零數字必為 2 或 3，絕不可能為 4。原解答誤印為 4。",
+        "original": "$47^{100}$ 為 168 位數，求 $\\dfrac{1}{47^{17}}$ 首位非 0 數字\nAns : (2) 4",
+        "correction": "Ans : (2)  3",
+        "category": "簡答數值錯誤",
+        "detail": "$47^{17}=26647936506962193439322192687$，故 $\\dfrac{1}{47^{17}}=3.7526\\cdots\\times 10^{-29}$，首位非零數字為 3。原解答誤印為 4。",
         "priority": "medium"
       },
       {
